@@ -1,0 +1,42 @@
+:root {
+    --primary: #2563eb; /* Professional Blue */
+    --bg: #ffffff;
+    --text: #1f2937;
+    --card-bg: #f9fafb;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.card {
+    background: var(--card-bg);
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary);
+}
+
+.tag {
+    background: #dbeafe;
+    color: var(--primary);
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    margin-right: 0.5rem;
+}
