@@ -18,6 +18,11 @@ body {
     margin: 0;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
