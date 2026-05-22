@@ -26,7 +26,7 @@ body {
     align-items: center;
     background-color: var(--head-bg);
     color: var(--bg);
-    position: relative;
+    /* position: relative; */
     /* box-sizing: border-box; */
 }
 
