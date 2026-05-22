@@ -3,7 +3,6 @@
     --bg: #F8FAFC;
     --text: #1f2937;
     --card-bg: #f9fafb;
-    --head-bg: #0a3ca9;
 }
 
 body {
@@ -28,7 +27,7 @@ body {
     background-color: var(--primary);
     color: var(--bg);
     position: relative;
-    padding: 1 2rem;
+    /* padding: 1 2rem; */
     box-sizing: border-box;
 }
 
