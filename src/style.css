@@ -31,10 +31,14 @@ body {
     /* box-sizing: border-box; */
 }
 
+.title{
+    margin: 1 rem;
+}
+
 .nav-bar {
     width: 100%;
     max-width: 1200px;
-    height: 5 rem;
+    height: 4 rem;
     display: flex;
     align-items: center;
 }
