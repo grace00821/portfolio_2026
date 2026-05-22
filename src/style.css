@@ -22,7 +22,7 @@ body {
 .site-header {
     width: 100%;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
     background-color: var(--head-bg);
     color: var(--bg);
