@@ -23,6 +23,10 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .site-header {
     width: 100%;
     display: flex;
