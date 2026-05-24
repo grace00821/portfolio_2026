@@ -17,9 +17,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
-import './style.css'; // This ensures your global CSS applies everywhere
+import './style.css'; 
 
-ReactDOM.createRoot(document.getElementById('root')).bind(
+ReactDOM.createRoot(document.getElementById('root')).render( // <--- Must be .render()
   <React.StrictMode>
     <App />
   </React.StrictMode>
