@@ -6,7 +6,7 @@ import Projects from './pages/projects';
 
 // Placeholder components for your other paths so the app doesn't break when clicking links
 const About = () => <div style={{ padding: '20px' }}><h2>About Page Content Goes Here</h2></div>;
-// const Projects = () => <div style={{ padding: '20px' }}><h2>Projects Page Content Goes Here</h2></div>;
+const Projects = () => <div style={{ padding: '20px' }}><h2>Projects Page Content Goes Here</h2></div>;
 const Research = () => <div style={{ padding: '20px' }}><h2>Research & Publications Content Goes Here</h2></div>;
 const Contact = () => <div style={{ padding: '20px' }}><h2>Contact Content Goes Here</h2></div>;
 
@@ -30,13 +30,13 @@ function App() {
         </header>
 
         {/* This defines which component loads based on the current browser URL path */}
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/publications" element={<Research />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes>
+        </Routes> */}
       </div>
     </Router>
   );
