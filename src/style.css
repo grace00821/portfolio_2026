@@ -90,6 +90,8 @@ a {
     overflow: hidden;
     margin: 2rem 0;
     padding-top: 7.1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
 }
 
 /* The dashed circular track */
