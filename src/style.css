@@ -75,6 +75,7 @@ body {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
+/* Circular Image Section Layout */
 .circular-links-section {
     display: flex;
     align-items: center;
@@ -87,8 +88,8 @@ body {
 /* The dashed circular track */
 .circle-track {
     position: relative;
-    width: 70%;
-    height: 70%;
+    width: 700px;
+    height: 700px;
     border-radius: 70%;
     border: 2px dashed #cbd5e1;
 }
