@@ -1,15 +1,15 @@
-// import projects from './data/projects.json';
-// import { ProjectsPage } from './pages/projects';
-// import { ProjectCard } from './components/ProjectCard';
+import projects from './data/projects.json';
+import { ProjectsPage } from './pages/projects';
+import { ProjectCard } from './components/ProjectCard';
 
-// const renderPortfolio = () => {
-//     const projectGrid = document.querySelector('#project-grid');
+const renderPortfolio = () => {
+    const projectGrid = document.querySelector('#project-grid');
 
-//     // Maps through your JSON and converts it into HTML components
-//     projectGrid.innerHTML = projects
-//         .map(project => ProjectCard(project))
-//         .join('');
-// };
+    // Maps through your JSON and converts it into HTML components
+    projectGrid.innerHTML = projects
+        .map(project => ProjectCard(project))
+        .join('');
+};
 
-// // Initialize the site
-// document.addEventListener('DOMContentLoaded', renderPortfolio);
+// Initialize the site
+document.addEventListener('DOMContentLoaded', renderPortfolio);
