@@ -57,7 +57,12 @@ export default function Home() {
       </h2>
 
       <section id="project-grid" className="grid">
-        {/* Your project cards will display here */}
+        {projects.map((projectItem) => (
+          <ProjectCard 
+            key={projectItem.id || projectItem.title} 
+            project={projectItem} 
+          />
+        ))}
       </section>
     </main>
   );
