@@ -27,7 +27,7 @@ body {
     align-items: center;
     background-color: var(--primary);
     color: var(--bg);
-    padding: 3 rem;
+    padding: 3rem;
     /* position: relative; */
     /* box-sizing: border-box; */
 }
@@ -35,17 +35,16 @@ body {
 .nav-bar {
     width: 100%;
     max-width: 1200px;
-    height: 4 rem;
+    height: 4rem;
     display: flex;
     align-items: center;
-    margin: 1 rem;
+    margin: 1rem;
 }
 
 .nav-links {
     display: flex;
     align-items: center;
     gap: 0rem;
-    margin: 1 rem;
 }
 
 .nav-links a {
