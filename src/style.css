@@ -112,7 +112,7 @@ a {
     color: var(--text);
     font-weight: bold;
     letter-spacing: 0.1em;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /* Image links base styles */
@@ -141,7 +141,7 @@ a {
 
 .icon-text{
     color: var(--text);
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Hover state: scale up and increase shadow */
