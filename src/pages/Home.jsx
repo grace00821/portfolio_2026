@@ -1,7 +1,7 @@
 // src/pages/Home.jsx
 import React from 'react';
-import projects from './data/projects.json';
-import { ProjectCard } from './components/ProjectCard';
+import projects from '../data/projects.json';
+import { ProjectCard } from '../components/ProjectCard';
 
 export default function Home() {
   return (
