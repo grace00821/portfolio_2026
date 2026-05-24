@@ -18,7 +18,7 @@ function App() {
           <h1 className="title">Grace Eunhye Yang</h1>
           <h3 className="subtitle">MPhil in Biomedical Sciences, specialized in Clinical AI</h3>
           <nav className="nav-bar">
-            <Routes className="nav-links">
+            <div className="nav-links">
               {/* Changed from <a> to <Link to="..."> */}
               <Link to="/" className="nav-cta">Home</Link>
               <Link to="/about" className="nav-cta">About</Link>
