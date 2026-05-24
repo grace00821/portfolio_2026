@@ -2,8 +2,12 @@
     /* --primary: #003366; */
     /* --bg: #F8FAFC; */
     --primary: #002F6C;
-    --bg: #F8F9F6;
-    --text: #1f2937;
+    --secondary: #006789;
+    --tertiary: #A7C6ED;
+    --bg: #D9D9D6;
+    /* --bg: #F8F9F6; */
+    /* --text: #1f2937; */
+    --text: #002F6C;
     --card-bg: #f9fafb;
 }
 
@@ -90,7 +94,7 @@ body {
     position: relative;
     width: 600px;
     height: 600px;
-    border-radius: 70%;
+    border-radius: 50%;
     border: 2px dashed #cbd5e1;
 }
 
