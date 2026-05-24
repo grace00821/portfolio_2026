@@ -27,10 +27,6 @@ a {
     text-decoration: none;
 }
 
-.title{
-    line-height: 1;
-}
-
 .site-header {
     width: 100%;
     display: flex;
@@ -44,7 +40,7 @@ a {
 }
 
 .title{
-    line-height: 1;
+    line-height: 0.7;
 }
 
 .subtitle{
