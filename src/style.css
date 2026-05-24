@@ -94,6 +94,7 @@ body {
 }
 
 .card {
+    width: 25%;
     background: var(--card-bg);
     border: 1px solid #e5e7eb;
     border-radius: 12px;
