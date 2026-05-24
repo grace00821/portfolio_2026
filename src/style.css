@@ -115,10 +115,10 @@ body {
     transform: translate(-50%, -50%);
     border-radius: 60%;
     /* overflow: hidden; */
-    border: 0px solid white;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    /* border: 0px solid white; */
+    /* box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
     transition: all 0.3s ease-in-out;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 /* Hover state: scale up and increase shadow */
