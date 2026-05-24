@@ -79,6 +79,8 @@ body {
 .section-title{
     text-align: left;
     padding: 1rem;
+    padding-left: 3rem;
+    margin: 0rem;
 }
 
 .grid {
