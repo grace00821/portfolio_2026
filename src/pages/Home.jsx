@@ -1,5 +1,7 @@
 // src/pages/Home.jsx
 import React from 'react';
+import projects from './data/projects.json';
+import { ProjectCard } from './components/ProjectCard';
 
 export default function Home() {
   return (
@@ -55,7 +57,7 @@ export default function Home() {
       </h2>
 
       <section id="project-grid" className="grid">
-        {/* Your project cards will display here */}
+        {projectGrid.innerHTML = projects.map(project => ProjectCard(project)).join('');}
       </section>
     </main>
   );
