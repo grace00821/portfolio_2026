@@ -87,8 +87,8 @@ body {
 /* The dashed circular track */
 .circle-track {
     position: relative;
-    width: 280px;
-    height: 280px;
+    width: 70%;
+    height: 70%;
     border-radius: 70%;
     border: 2px dashed #cbd5e1;
 }
