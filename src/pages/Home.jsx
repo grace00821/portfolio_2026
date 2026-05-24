@@ -2,9 +2,9 @@
 import React from 'react';
 import projects from '../data/projects.json';
 import { ProjectCard } from '../components/ProjectCard';
-import microchipIcon from '../assets/microchip.png';
-import codeIcon from '../assets/code.png';
-import biotechnologyIcon from '../assets/biotechnology.png';
+// import microchipIcon from '../assets/microchip.png';
+// import codeIcon from '../assets/code.png';
+// import biotechnologyIcon from '../assets/biotechnology.png';
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
             id="ai-icon" 
             style={{ left: '50%', top: 'calc(50% - 300px)' }}
           >
-            <img src={microchipIcon} alt="Artificial Intelligence" />
+            <img src="/images/microchip.png" alt="Artificial Intelligence" />
             <div className="icon-text">Artificial Intelligence</div>
           </a>
           
@@ -35,7 +35,7 @@ export default function Home() {
             id="code-icon" 
             style={{ left: 'calc(50% + (300px * 0.866))', top: 'calc(50% + (300px * 0.5))' }}
           >
-            <img src={codeIcon} alt="Software Engineering" />
+            <img src="/images/code.png" alt="Software Engineering" />
             <div className="icon-text">Software Engineering</div>
           </a>
           
@@ -48,7 +48,7 @@ export default function Home() {
             id="lab-icon" 
             style={{ left: 'calc(50% - (300px * 0.866))', top: 'calc(50% + (300px * 0.5))' }}
           >
-            <img src={biotechnologyIcon} alt="Biomedical Sciences" />
+            <img src="/images/biotechnology.png" alt="Biomedical Sciences" />
             <div className="icon-text">Biomedical Sciences</div>
           </a>
         </div>
