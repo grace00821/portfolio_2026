@@ -6,7 +6,7 @@ import Projects from './pages/projects';
 
 // Placeholder components for your other paths so the app doesn't break when clicking links
 const About = () => <div style={{ padding: '20px' }}><h2>About Page Content Goes Here</h2></div>;
-const Projects = () => <div style={{ padding: '20px' }}><h2>Projects Page Content Goes Here</h2></div>;
+// const Projects = () => <div style={{ padding: '20px' }}><h2>Projects Page Content Goes Here</h2></div>;
 const Research = () => <div style={{ padding: '20px' }}><h2>Research & Publications Content Goes Here</h2></div>;
 const Contact = () => <div style={{ padding: '20px' }}><h2>Contact Content Goes Here</h2></div>;
 
@@ -18,7 +18,7 @@ function App() {
           <h1 className="title">Grace Eunhye Yang</h1>
           <h3 className="subtitle">MPhil in Biomedical Sciences, specialized in Clinical AI</h3>
           <nav className="nav-bar">
-            <div className="nav-links">
+            <Routes className="nav-links">
               {/* Changed from <a> to <Link to="..."> */}
               <Link to="/" className="nav-cta">Home</Link>
               <Link to="/about" className="nav-cta">About</Link>
