@@ -57,7 +57,7 @@ export default function Home() {
       </h2>
 
       <section id="project-grid" className="grid">
-        {projectGrid.innerHTML = projects.map(project => ProjectCard(project)).join('');}
+        {projects.map(project => ProjectCard(project)).join('');}
       </section>
     </main>
   );
