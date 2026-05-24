@@ -29,6 +29,7 @@ body {
     color: var(--bg);
     position: relative;
     box-sizing: border-box;
+    padding-top: 1rem;
 }
 
 .title{

@@ -1,18 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Intracerebral Hemorrhage Outcome Prediction",
-    "institution": "Data Discovery for Health (D24H)",
+    "title": "Machine learning based prognosis prediction of intracerebral hemorrhage outcome",
+    "institution": "The University of Hong Kong",
     "description": "Developing ML models to predict clinical outcomes for ICH patients.",
-    "tags": ["Machine Learning", "Healthcare", "Python"],
+    "tags": ["Machine Learning", "Electronic Medical Data", "Python"],
     "link": "https://github.com/yourprofile/ich-project"
   },
   {
     "id": 2,
-    "title": "MPhil Thesis: AI in Medicine",
+    "title": "Automated cell counting pipeline for Danio rerio blood smear",
+    "institution": "Laboratory of Data Discovery for Health",
+    "description": "Researching the application of Artificial Intelligence in medical workflows.",
+    "tags": ["YOLO", "Image processing", "End-to-end pipeline"],
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Binary heart sound CNN classifier",
     "institution": "The University of Hong Kong",
     "description": "Researching the application of Artificial Intelligence in medical workflows.",
-    "tags": ["AI", "Biomedical Science", "Research"],
+    "tags": ["CNN", "Audio Processing", "R/R studio"],
     "link": "#"
   }
 ]
