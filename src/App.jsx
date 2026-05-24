@@ -30,13 +30,13 @@ function App() {
         </header>
 
         {/* This defines which component loads based on the current browser URL path */}
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/publications" element={<Research />} />
           <Route path="/contact" element={<Contact />} />
-        </Routes> */}
+        </Routes>
       </div>
     </Router>
   );
