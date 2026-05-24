@@ -137,7 +137,7 @@ body {
 
 .icon-text{
     color: var(--text);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 /* Hover state: scale up and increase shadow */
