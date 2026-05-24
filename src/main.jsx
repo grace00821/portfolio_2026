@@ -1,4 +1,5 @@
 import projects from './data/projects.json';
+import ProjectsPage from './pages/Projects.jsx';
 import { ProjectCard } from './components/ProjectCard';
 
 const renderPortfolio = () => {
