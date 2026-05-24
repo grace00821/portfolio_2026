@@ -1,5 +1,3 @@
-import navigation from './data/navigation.json';
-import { Navigation } from './components/Navigation';
 import projects from './data/projects.json';
 import { ProjectsPage } from './pages/Projects';
 import { ProjectCard } from './components/ProjectCard';
