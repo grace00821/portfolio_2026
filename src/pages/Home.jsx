@@ -57,12 +57,18 @@ export default function Home() {
       </h2>
 
       <section id="project-grid" className="grid">
-        {projects.map((projectItem) => (
-          <ProjectCard 
-            key={projectItem.id || projectItem.title} 
-            project={projectItem}
-          />
-        ))}
+        {projects && projects.length > 0 ? (
+              projects.map((projectItem) => (
+              <ProjectCard 
+                  key={projectItem.id || projectItem.title} 
+                  project={projectItem} 
+              />
+              ))
+          ) : (
+              <p style={{ color: 'red', gridColumn: '1/-1', textAlign: 'center' }}>
+              No projects found. Check if your projects.json array is loading properly!
+              </p>
+          )}
       </section>
     </main>
   );
