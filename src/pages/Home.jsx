@@ -2,9 +2,6 @@
 import React from 'react';
 import projects from '../data/projects.json';
 import { ProjectCard } from '../components/ProjectCard';
-// import microchipIcon from '../assets/microchip.png';
-// import codeIcon from '../assets/code.png';
-// import biotechnologyIcon from '../assets/biotechnology.png';
 
 export default function Home() {
   return (
