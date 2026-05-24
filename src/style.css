@@ -4,10 +4,8 @@
     --primary: #002F6C;
     --secondary: #006789;
     --tertiary: #A7C6ED;
-    --bg: #D9D9D6;
-    /* --bg: #F8F9F6; */
-    /* --text: #1f2937; */
-    --text: #002F6C;
+    --bg: #F8F9F6;
+    --text: #1f2937;
     --card-bg: #f9fafb;
 }
 
@@ -95,7 +93,7 @@ body {
     width: 600px;
     height: 600px;
     border-radius: 50%;
-    border: 2px dashed #cbd5e1;
+    border: 2px dashed var(--secondary);
 }
 
 /* Center text styling */
