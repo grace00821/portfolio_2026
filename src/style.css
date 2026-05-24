@@ -129,6 +129,11 @@ body {
     height: 25%;
 }
 
+#lab-icon{
+    width: 25%;
+    height: 25%;
+}
+
 /* Hover state: scale up and increase shadow */
 .circle-img-link:hover {
     transform: translate(-50%, -50%) scale(1.25);
