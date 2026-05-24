@@ -45,7 +45,8 @@ body {
     max-width: 1200px;
     height: 4rem;
     display: flex;
-    align-items: center;
+    align-items: left;
+    padding-left: 3rem;
 }
 
 .nav-links {
