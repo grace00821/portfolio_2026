@@ -1,10 +1,17 @@
+import navigation from './data/navigation.json';
+import { Navigation } from './components/Navigation';
 import projects from './data/projects.json';
 import { ProjectsPage } from './pages/Projects';
 import { ProjectCard } from './components/ProjectCard';
 
 const renderPortfolio = () => {
+    const navBar = document.querySelector('#navigation');
     const projectGrid = document.querySelector('#project-grid');
     
+    navBar.innerHTML = navigations
+        .map(navigation => Navigation(navigation))
+        .join('');
+
     // Maps through your JSON and converts it into HTML components
     projectGrid.innerHTML = projects
         .map(project => ProjectCard(project))
