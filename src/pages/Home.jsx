@@ -59,8 +59,8 @@ export default function Home() {
       <section id="project-grid" className="grid">
         {projects.map((projectItem) => (
           <ProjectCard 
-            key={projects.id || projects.title} 
-            project={projects} 
+            key={projectItem.id || projectItem.title} 
+            project={projectItem}
           />
         ))}
       </section>
