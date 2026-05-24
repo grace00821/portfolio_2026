@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
-import Projects from './pages/projects';
+// import Projects from './pages/projects';
 
 // Placeholder components for your other paths so the app doesn't break when clicking links
 const About = () => <div style={{ padding: '20px' }}><h2>About Page Content Goes Here</h2></div>;
