@@ -28,6 +28,7 @@ body {
     background-color: var(--primary);
     color: var(--bg);
     padding: 3 rem;
+    margin: 2 rem;
     /* position: relative; */
     /* box-sizing: border-box; */
 }
