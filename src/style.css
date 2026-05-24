@@ -84,7 +84,8 @@ body {
     justify-content: center;
     min-height: 500px;
     overflow: hidden;
-    margin: 2rem;
+    margin: 2rem 0;
+    padding: 0 3rem;
 }
 
 /* The dashed circular track */
@@ -112,8 +113,8 @@ body {
 /* Image links base styles */
 .circle-img-link {
     position: absolute;
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     /* overflow: hidden; */
