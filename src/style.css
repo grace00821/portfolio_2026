@@ -43,7 +43,8 @@ body {
 .nav-bar {
     max-width: 1200px;
     display: flex;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
 }
 
 .nav-links {
