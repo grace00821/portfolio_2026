@@ -2,13 +2,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
-// import Projects from './pages/projects';
+import About from './pages/about';
+import Projects from './pages/projects';
+import Publications from './pages/publications';
+import Contact from './pages/contact';
 
 // Placeholder components for your other paths so the app doesn't break when clicking links
-const About = () => <div style={{ padding: '20px' }}><h2>About Page Content Goes Here</h2></div>;
-const Projects = () => <div style={{ padding: '20px' }}><h2>Projects Page Content Goes Here</h2></div>;
-const Research = () => <div style={{ padding: '20px' }}><h2>Research & Publications Content Goes Here</h2></div>;
-const Contact = () => <div style={{ padding: '20px' }}><h2>Contact Content Goes Here</h2></div>;
+// const About = () => <div style={{ padding: '20px' }}><h2>About Page Content Goes Here</h2></div>;
+// const Projects = () => <div style={{ padding: '20px' }}><h2>Projects Page Content Goes Here</h2></div>;
+// const Research = () => <div style={{ padding: '20px' }}><h2>Research & Publications Content Goes Here</h2></div>;
+// const Contact = () => <div style={{ padding: '20px' }}><h2>Contact Content Goes Here</h2></div>;
 
 function App() {
   return (
@@ -19,7 +22,6 @@ function App() {
           <h3 className="subtitle">MPhil in Biomedical Sciences, specialized in Clinical AI</h3>
           <nav className="nav-bar">
             <div className="nav-links">
-              {/* Changed from <a> to <Link to="..."> */}
               <Link to="/" className="nav-cta">Home</Link>
               <Link to="/about" className="nav-cta">About</Link>
               <Link to="/projects" className="nav-cta">Projects</Link>

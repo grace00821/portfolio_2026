@@ -1,7 +1,7 @@
-export default function Projects() {
+export default function Publications() {
   return (
     <div>
-      <h1>Project Page</h1>
+      <h1>Publications Page</h1>
       <p>This is the about page built with React!</p>
     </div>
   );
