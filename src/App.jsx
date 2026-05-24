@@ -19,7 +19,7 @@ function App() {
               <Link to="/" className="nav-cta">Home</Link>
               <Link to="/about" className="nav-cta">About</Link>
               <Link to="/projects" className="nav-cta">Projects</Link>
-              <Link to="/publications" className="nav-cta">Research</Link>
+              <Link to="/publications" className="nav-cta">Publications</Link>
               <Link to="/contact" className="nav-cta">Contact</Link>
             </div>
           </nav>
