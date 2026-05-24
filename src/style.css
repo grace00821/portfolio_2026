@@ -28,7 +28,7 @@ body {
     background-color: var(--primary);
     color: var(--bg);
     position: relative;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 .title{
