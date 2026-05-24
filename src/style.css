@@ -16,7 +16,7 @@ body {
 
     font-family: 'Inter', sans-serif;
     color: var(--text);
-    line-height: 1;
+    line-height: 1.6;
     margin: 0;
 }
 
@@ -29,6 +29,14 @@ body {
     color: var(--bg);
     position: relative;
     /* box-sizing: border-box; */
+}
+
+.title{
+    line-height: 1.2;
+}
+
+.subtitle{
+    line-height: 1.2;
 }
 
 .nav-bar {
