@@ -89,7 +89,7 @@ body {
     position: relative;
     width: 280px;
     height: 280px;
-    border-radius: 50%;
+    border-radius: 70%;
     border: 2px dashed #cbd5e1;
 }
 
@@ -109,12 +109,12 @@ body {
 /* Image links base styles */
 .circle-img-link {
     position: absolute;
-    width: 112px;
-    height: 112px;
+    width: 15%;
+    height: 15%;
     transform: translate(-50%, -50%);
-    border-radius: 50%;
+    border-radius: 60%;
     overflow: hidden;
-    border: 4px solid white;
+    border: 0px solid white;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: all 0.3s ease-in-out;
     z-index: 1;
