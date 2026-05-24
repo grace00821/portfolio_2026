@@ -84,8 +84,9 @@ body {
 }
 
 .intro-text{
-    text-align: left;
-    padding: 0.5rem;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .grid {
