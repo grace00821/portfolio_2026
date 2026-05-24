@@ -114,8 +114,8 @@ body {
 .circle-img-link {
     position: absolute;
     transform: translate(-50%, -50%);
-    width: 30%;
-    height: 30%;
+    width: 32%;
+    height: 32%;
     border-radius: 50%;
     /* overflow: hidden; */
     /* border: 0px solid white; */
