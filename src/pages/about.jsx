@@ -7,7 +7,7 @@ export default function About() {
         Education
       </h2>
       <section className="edu-list">
-        This is education list.
+        Education list.
       </section>
       <h2 className="section-title">
         Work experience

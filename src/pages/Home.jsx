@@ -53,7 +53,7 @@ export default function Home() {
 
       <h2 className="section-title">
         Project Selections
-        <a href="/projects" style={{ fontSize: '10px' }}>More projects</a>
+        <a href="/projects" style={{ fontSize: '10px' }}> [More projects]</a>
       </h2>
 
       <section id="project-grid" className="grid">
