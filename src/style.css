@@ -193,6 +193,10 @@ a {
     border-color: var(--primary);
 }
 
+.institution{
+    font-style: italic;
+}
+
 .tag {
     background: #dbeafe;
     color: var(--primary);
