@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Beta-binomial regression model",
     "institution": "The University of Hong Kong",
-    "description": "Researching the application of Artificial Intelligence in medical workflows.",
+    "description": "Beta-binomial python package for hackahon project",
     "tags": ["Beta-binomial", "Git", "Statistics", "Python package"],
     "link": "https://github.com/StatBiomed/BetabinGLM"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Heart sound CNN classification",
     "institution": "The University of Hong Kong",
-    "description": "Researching the application of Artificial Intelligence in medical workflows.",
+    "description": "Normal and abnormal heart sound classification",
     "tags": ["CNN", "Tensorflow", "Audio Processing", "R/R studio"],
     "link": "https://github.com/grace00821/Heatmap-Classifier-CNN"
   }
