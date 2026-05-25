@@ -4,7 +4,7 @@
     "title": "Prognosis prediction",
     "institution": "The University of Hong Kong",
     "description": "Intracerebral hemorrhage prognosis prediction model",
-    "tags": ["Machine Learning", "Electronic Medical Data", "Python"],
+    "tags": ["Machine Learning", "Scikit-Learn", "Electronic Medical Data", "Python"],
     "link": "#"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Blood cell image classficiation",
     "institution": "Laboratory of Data Discovery for Health",
     "description": "Automated Zebrafish blood cell classification",
-    "tags": ["YOLO", "Image processing", "End-to-end pipeline"],
+    "tags": ["YOLO", "PyTorch", "Image processing", "End-to-end pipeline"],
     "link": "#"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Heart sound CNN classification",
     "institution": "The University of Hong Kong",
     "description": "Researching the application of Artificial Intelligence in medical workflows.",
-    "tags": ["CNN", "Audio Processing", "R/R studio"],
+    "tags": ["CNN", "Tensorflow", "Audio Processing", "R/R studio"],
     "link": "https://github.com/grace00821/Heatmap-Classifier-CNN"
   }
 ]
