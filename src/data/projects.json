@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Blood cell image classficiation",
     "institution": "Laboratory of Data Discovery for Health",
-    "description": "Automated <i>Danio rerio</i> blood cell classification",
+    "description": "Automated Zebrafish blood cell classification",
     "tags": ["YOLO", "Image processing", "End-to-end pipeline"],
     "link": "#"
   },
