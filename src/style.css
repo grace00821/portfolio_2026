@@ -197,6 +197,11 @@ a {
     font-style: italic;
 }
 
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .tag {
     background: #dbeafe;
     color: var(--primary);
@@ -204,4 +209,5 @@ a {
     padding: 0.2rem 0.6rem;
     border-radius: 999px;
     margin-right: 0.5rem;
+    white-space: nowrap;
 }
