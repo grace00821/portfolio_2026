@@ -201,6 +201,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    row-gap: 3px;
 }
 
 .tag {
