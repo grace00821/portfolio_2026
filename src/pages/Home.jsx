@@ -1,6 +1,8 @@
 // src/pages/Home.jsx
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import projects from '../data/projects.json';
+import Projects from './pages/Projects';
 import { ProjectCard } from '../components/ProjectCard';
 
 export default function Home() {
@@ -53,7 +55,12 @@ export default function Home() {
 
       <h2 className="section-title">
         Project Selections
-        <a href="/projects" style={{ fontSize: '10px' }}> [More projects]</a>
+        <Router>
+          <Link to="/Projects" style={{ fontSize: '10px' }}> [More projects]</Link>
+          <Routes>
+            <Route path="/Projects" element={<Projects />} />
+          </Routes>
+        </Router>
       </h2>
 
       <section id="project-grid" className="grid">
