@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import projects from '../data/projects.json';
-import Projects from './pages/Projects';
+import Projects from './Projects';
 import { ProjectCard } from '../components/ProjectCard';
 
 export default function Home() {
