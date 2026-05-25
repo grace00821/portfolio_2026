@@ -26,13 +26,26 @@ function App() {
         </header>
 
         {/* This defines which component loads based on the current browser URL path */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Publications" element={<Publications />} />
-          <Route path="/Contact" element={<Contact />} />
-        </Routes>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/Publications" element={<Publications />} />
+            <Route path="/Contact" element={<Contact />} />
+          </Routes>
+        </main>
+
+        {/* Global Website Footer */}
+        <footer className="site-footer">
+          <div className="footer-content">
+            <div className="footer-links">
+              <a href="https://www.linkedin.com/in/eunhye-grace/" target="_blank" rel="noopener noreferrer" className="footer-link">LinkedIn</a>
+              <a href="https://github.com/grace00821" target="_blank" rel="noopener noreferrer" className="footer-link">GitHub</a>
+              {/* <a href="https://scholar.google.com" target="_blank" rel="noopener noreferrer" className="footer-link">Google Scholar</a> */}
+            </div>
+          </div>
+        </footer>
       </div>
     </Router>
   );
