@@ -22,7 +22,7 @@
     "description": "Researching the application of Artificial Intelligence in medical workflows.",
     "tags": ["Beta-binomial", "Statistics", "Python package"],
     "link": "https://github.com/StatBiomed/BetabinGLM"
-  }
+  },
   {
     "id": 4,
     "title": "Heart sound CNN classification",
