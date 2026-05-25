@@ -1,23 +1,31 @@
 [
   {
     "id": 1,
-    "title": "Machine learning based prognosis prediction of intracerebral hemorrhage outcome",
+    "title": "Prognosis prediction",
     "institution": "The University of Hong Kong",
-    "description": "Developing ML models to predict clinical outcomes for ICH patients.",
+    "description": "Intracerebral hemorrhage prognosis prediction model",
     "tags": ["Machine Learning", "Electronic Medical Data", "Python"],
-    "link": "https://github.com/yourprofile/ich-project"
+    "link": "#"
   },
   {
     "id": 2,
-    "title": "Automated cell counting pipeline for Danio rerio blood smear",
+    "title": "Blood cell image classficiation",
     "institution": "Laboratory of Data Discovery for Health",
-    "description": "Researching the application of Artificial Intelligence in medical workflows.",
+    "description": "Automated <i>Danio rerio</i> blood cell classification",
     "tags": ["YOLO", "Image processing", "End-to-end pipeline"],
     "link": "#"
   },
   {
     "id": 3,
-    "title": "Binary heart sound CNN classifier",
+    "title": "Beta-binomial regression model",
+    "institution": "The University of Hong Kong",
+    "description": "Researching the application of Artificial Intelligence in medical workflows.",
+    "tags": ["Beta-binomial", "Statistics", "Python package"],
+    "link": "https://github.com/StatBiomed/BetabinGLM"
+  }
+  {
+    "id": 4,
+    "title": "Heart sound CNN classification",
     "institution": "The University of Hong Kong",
     "description": "Researching the application of Artificial Intelligence in medical workflows.",
     "tags": ["CNN", "Audio Processing", "R/R studio"],
